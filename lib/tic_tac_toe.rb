@@ -85,6 +85,7 @@ class TicTacToe
     end
 
     def play
+        puts "Let's play! Enter 1-9 to place your piece on the board:"
         turn until over?
         if won? 
             puts "Congratulations #{winner}!"

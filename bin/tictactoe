@@ -3,5 +3,6 @@ require 'pry'
 $LOAD_PATH<<'.'
 require "lib/tic_tac_toe.rb"
 
+puts "Welcome to Tic Tac Toe!"
 game = TicTacToe.new
 game.play
